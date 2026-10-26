@@ -1,0 +1,6 @@
+# คอมไพล์ทุกไฟล์
+mkdir -p bin
+javac -d bin src/org/iteabag/simulator/cache/*.java src/org/iteabag/simulator/*.java
+
+# รันการจำลอง
+java -cp bin org.iteabag.simulator.CacheSimulator
